@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-BillingsoftwareApplication<billingsoftware>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "in.shubham.billingsoftware.BillingsoftwareApplication",
+            "projectName": "billingsoftware",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
