@@ -4,7 +4,7 @@
 A full-stack retail billing system that allows store owners to manage inventory, customer orders, transactions, and handle online payments via Razorpay. Includes role-based access (Admin & User) with secure authentication.
 
 ---
-📸 Screenshots (Optional)
+📸 Screenshots---
 
 ![Dashboard](https://github.com/user-attachments/assets/5cdced69-7f6b-4811-a2c6-12d9836c374e)
 
