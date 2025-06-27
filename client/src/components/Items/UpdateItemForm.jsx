@@ -45,11 +45,6 @@ const UpdateItemForm = ({updateId, setUpdateId}) => {
     // eslint-disable-next-line
     }, [updateId, items]);
 
-    useEffect(() => {
-        console.log(data);
-        
-    }, [data]);
-
     const onChangeHandler = (e) => {
         let value = e.target.value;
         const name = e.target.name;

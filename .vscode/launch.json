@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BillingsoftwareApplication",
+            "request": "launch",
+            "mainClass": "in.shubham.billingsoftware.BillingsoftwareApplication"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-BillingsoftwareApplication<billingsoftware>",
             "request": "launch",
             "cwd": "${workspaceFolder}",

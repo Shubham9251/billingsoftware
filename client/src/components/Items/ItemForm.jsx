@@ -15,12 +15,7 @@ const ItemForm = () => {
         price: 0,
         description: ""
     });
-
-    useEffect(() => {
-        console.log(data);
-        
-    }, [data]);
-
+    
     const onChangeHandler = (e) => {
         let value = e.target.value;
         const name = e.target.name;

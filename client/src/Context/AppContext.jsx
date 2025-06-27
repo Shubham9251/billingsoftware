@@ -46,10 +46,6 @@ export const AppContextProvider = (props) => {
   }
 
   useEffect(() => {
-    console.log("Auth in AppContext.jsx", auth);
-  }, [auth]);
-
-  useEffect(() => {
     async function loadData() {
       const token = localStorage.getItem('token');
       const role = localStorage.getItem('role');

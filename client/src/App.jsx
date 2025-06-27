@@ -37,10 +37,6 @@ const App = () => {
     return element;
   }
 
-  useEffect(() => {
-    console.log("Auth in App.jsx", auth);
-  }, [auth]);
-
 
   return (
     <>

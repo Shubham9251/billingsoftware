@@ -46,10 +46,6 @@ const UpdateCategoryForm = ({updateId, setUpdateId}) => {
     // eslint-disable-next-line
     }, [updateId, categories]);
 
-    useEffect(() => {
-        console.log("Update Category Form Data:", data);
-    }, [data]);
-
     const onChangeHandler = (e) => {
         const value = e.target.value;
         const name = e.target.name;

@@ -14,10 +14,6 @@ const Login = () => {
         password: ''
     });
 
-    useEffect(() => {
-        console.log(data);
-    }, [data]);
-
     const onChangeHandler = (e) => {
         const name = e.target.name;
         const value = e.target.value;
